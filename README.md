@@ -77,7 +77,6 @@ Capture and analyze network traffic between a Windows VM and a Kali Linux VM to 
 - Data is **unencrypted and readable**
 
 **Screenshot:**  
-![HTTP GET Request](./screenshots/http_get.png)
 
 ---
 
