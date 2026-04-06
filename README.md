@@ -75,30 +75,27 @@ Capture and analyze network traffic between a Windows VM and a Kali Linux VM to 
 - Visible **GET requests** in packet details  
 - Full request data shown in the **Info tab**  
 - Data is **unencrypted and readable**
+  
+- [HTTP Get Request]
+--- ![HTTP](https://github.com/user-attachments/assets/d7b69561-8a8d-41a8-bb45-0e732ef1f7d2)
 
-**Screenshot:**  
-
----
 
 ### HTTPS Traffic
 - Only shows **TLS handshake (SYN, ACK, Client Hello, Server Hello)**  
 - No readable request data  
 - Demonstrates **encryption in transit**
 
-**Screenshot:**  
-![HTTPS Handshake](./screenshots/https_handshake.png)
+-[HTTPS Handshake]
+--- ![HTTPS](https://github.com/user-attachments/assets/e859c0e2-09ba-4f16-94e7-7b3ce16ee46c)
 
----
 
 ### ICMP (Ping) Traffic
 - Shows **echo request and reply packets**  
 - Confirms connectivity between machines  
-- Initially blocked by firewall until adjusted  
-
-**Screenshot:**  
-![ICMP Traffic](./screenshots/icmp_ping.png)
-
----
+- Initially blocked by firewall until adjusted
+ 
+-[ICMP Traffic]
+--- ![ICMP](https://github.com/user-attachments/assets/47a03472-8301-418b-bef4-f4dd9cabf923)
 
 ## Challenges & Solutions
 
